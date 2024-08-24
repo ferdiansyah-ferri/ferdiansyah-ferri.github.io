@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "poppins", sans-serif;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.header {
+
+    position: fixed;
+    width: 100%;
+    padding: 5px;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    border-bottom: 1px solid rgb(221, 203, 203);
+}
+
+.header img {
+    width: 200px;
+    text-align: start;
+
+
+    margin-left: 30px;
+
+}
+
+.container {
+
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-top: 100px;
+
+
+
+
+}
+
+.container h1 {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.container .p1 {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #777;
+    padding: 5px;
+    margin: 5px 10px 10px 10px;
+
+}
+
+.container label {
+
+    font-size: 0.8rem;
+    color: #777;
+
+
+
+
+}
+
+.container #nama,
+#email {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.phone-input {
+    display: flex;
+    align-items: center;
+}
+
+
+.phone-code {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 3px;
+    border: 1px solid #ddd;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.phone-code img {
+    width: 20px;
+    height: 15px;
+    margin-right: 1px;
+    margin-left: 2px;
+}
+
+#slt {
+    border: none;
+    padding: 3px;
+    margin: 0;
+}
+
+.phone-input #telepone {
+    flex: 1;
+    border-left: 0;
+    border-radius: 4px 4px 4px 4px;
+    height: 30px;
+    margin-left: 5px;
+    border: 1px solid #ccc;
+
+
+
+}
+
+.sandi #kata-sandi,
+#kfn-sandi {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.sandi #kata-sandi {
+    font-size: 0.8rem;
+    color: #777;
+    margin-bottom: 10px;
+
+
+}
+
+.eye-1 {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    opacity: 0.30;
+    right: 35%;
+    bottom: 34%;
+}
+
+.eye-2 {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    opacity: 0.30;
+    right: 35%;
+    bottom: 22%;
+}
+
+
+.container a {
+    display: block;
+    justify-content: center;
+    text-align: end;
+    font-size: 0.7rem;
+    text-decoration: none;
+    margin: -10px 5px 5px 30px;
+}
+
+.container a:hover {
+    color: green;
+}
+
+.container .btn-masuk {
+    width: 100%;
+    padding: 10px;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #d1eacf;
+    color: #32c823;
+    margin-top: 10px;
+
+
+}
+
+.container .btn-daftar {
+    width: 100%;
+
+    padding: 10px;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #32c823;
+    color: #fff;
+
+    margin-top: 15px;
+}
+
+.container .p2 {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 0.8rem;
+    color: #777;
+}
+
+.hr1 {
+    position: absolute;
+    color: #ccc;
+    width: 170px;
+    bottom: -3%;
+}
+
+.hr2 {
+    position: absolute;
+    color: #ccc;
+    width: 170px;
+    bottom: -3%;
+    right: 35%;
+}
+
+
+.container .btn-google {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    color: #888;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+}
+
+.container img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.container .btn-google:hover {
+    background-color: #32c823;
+    color: black;
+
+}
+
+@media only screen and (max-width: 360px) {
+    .header img {
+        width: 100px;
+    }
+
+    .container {
+        max-width: 340px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .eye-1 {
+        right: 5%;
+        bottom: 26%;
+    }
+
+    .eye-2 {
+        right: 5%;
+        bottom: 10%;
+    }
+
+    .hr1 {
+        bottom: -22%;
+        width: 140px;
+    }
+
+    .hr2 {
+        bottom: -22%;
+        right: 5%;
+        width: 140px;
+    }
+}

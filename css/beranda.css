@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    font-family: "poppins", sans-serif;
+    background-color: antiquewhite;
+    max-width: 100vh;
+}
+
+.head {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #32c823;
+}
+
+.head img {
+    width: 1300px;
+    height: 3.5rem;
+}
+
+.container-banner {
+    display: flex;
+    width: 900px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(#000000b3, rgba(0, 0, 0, 0.7)), url('../img/gmbr\ 2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    background-position: center;
+    margin: 5px;
+    flex-direction: column;
+    padding: 0;
+    transform: translate(20%, 30%);
+}
+
+.container-banner h1,
+.p1 {
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    margin: 5px;
+    padding: 10px;
+
+}
+
+.container-banner .btn {
+    background-color: #32c823;
+    color: white;
+    margin: 5px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    align-self: center;
+}
+
+.pembuka {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-top: 20px;
+    top: 60%;
+    left: 14%;
+    position: absolute;
+}
+
+#judul2 {
+    padding: 5px;
+}
+
+.p2 {
+    font-size: 0.8rem;
+    padding: 5px;
+    margin: -4px 1px 0 1px;
+    opacity: 0.7;
+}
+
+.navbar {
+    display: block;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+    position: absolute;
+    top: 80%;
+    left: 13%;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 0.8rem;
+    opacity: 0.9;
+
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    width: 900px;
+    margin: 5px;
+    padding: 5px;
+    transform: translate(20%, 25%);
+}
+
+
+
+.card .cards img {
+    width: 250px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.cta {
+    display: flex;
+    background-position: center;
+    width: 900px;
+    height: 200px;
+    border-radius: 5px;
+    background-image: linear-gradient(#000000b3, rgba(0, 0, 0, 0.7)), url('../img/gmbr\ 2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px;
+    flex-direction: column;
+    padding: 5px;
+    text-align: center;
+    transform: translate(20%, 130%);
+}
+
+.cta h4 {
+    color: #fff;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.cta .head-two {
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+.cta .p3 {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.cta .cta-two {
+    background-color: #32c823;
+    display: flex;
+    width: 400px;
+    height: 30px;
+    align-self: center;
+    border: none;
+    padding: 3px 0px 3px 0;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
+.cta-two .ipt {
+    position: absolute;
+    align-content: center;
+    background-color: #32c823;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    border-radius: 2px;
+    font-size: 0.7rem;
+    width: 200px;
+}
+
+.cta-two .btn {
+    position: absolute;
+    right: 28%;
+    font-size: 0.8rem;
+    width: 80px;
+    margin: 2px 5px -1px 2px;
+    padding: 5px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(10, 9, 7);
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top: 300%;
+    margin-top: 5%;
+
+}
+
+.footer .content .img-img {
+    width: 200px;
+}
+
+.footer .p4 {
+    font-size: 0.8rem;
+    padding: 5px;
+    margin: 3px 0 0 -3px;
+}
+
+
+
+.perusahaan,
+.komunitas,
+.kategori dl {
+    font-size: 0.9rem;
+    font-style: bold;
+    margin-top: 10px;
+
+}
+
+.perusahaan dd,
+.komunitas dd,
+.kategori dd {
+    margin-top: 5px;
+
+}
+
+.komunitas a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    padding: 10px;
+
+}
+
+.kategori a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    padding: 10px;
+
+}
+
+
+.perusahaan a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    padding: 10px;
+}
+
+
+
+.footer-akhir {
+    position: absolute;
+    margin: 2px;
+    transform: translate(0%, 1700%);
+    width: 100%;
+    font-size: 0.7rem;
+    background-color: #32c823;
+
+}
+
+
+.footer-akhir .p5 {
+    display: inline-block;
+    transform: translate(2%, 100%);
+    color: #fff;
+
+}
+
+.media {
+    text-align: end;
+
+
+}
+
+.media a {
+    left: -20%;
+    padding: 2px;
+
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 360px) {
+
+    .head img {
+        width: 360px;
+        height: 30px;
+    }
+
+    .container-banner {
+        width: 350px;
+        transform: translate(0, 50px);
+
+    }
+
+    .container-banner h1,
+    .p1 {
+        font-size: 1rem;
+    }
+
+    .container-banner .btn {
+        width: 270px;
+        padding: 2px;
+        margin-top: -2px;
+    }
+
+    .pembuka {
+        width: 270px;
+        margin-top: 0;
+        top: 70%;
+        left: 0;
+    }
+
+    .pembuka .judul2 {
+        font-size: 3px;
+    }
+
+    .pembuka .p2 {
+        font-size: 1rem;
+    }
+
+    .navbar {
+        top: 100%;
+        left: -2%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .card {
+        width: 300px;
+        transform: translate(30px, 350px);
+
+    }
+
+    .cta {
+        width: 300px;
+        transform: translate(20px, 350px);
+        height: 250px;
+    }
+
+    .cta .cta-two {
+        width: 250px;
+        height: 20px;
+        margin-top: -5px;
+    }
+
+    .cta-two .ipt {
+        left: 12%;
+        margin: 0 0 1px 1px;
+        padding: 3px;
+        width: 230px;
+        background-color: #fff;
+        border-radius: 3px;
+    }
+
+    .cta-two .btn {
+        right: 8%;
+        transform: translate(0, 100%);
+        width: 250px;
+        color: black;
+        background-color: #32c823;
+    }
+
+    .footer {
+        width: 350px;
+        flex-direction: column;
+        height: 500px;
+        margin-top: 5px;
+
+        top: 825%;
+        padding: 5px;
+        position: absolute;
+    }
+
+    .footer-akhir {
+        transform: translate(0, 2650%);
+    }
+
+}

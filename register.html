@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form Register</title>
+    <!-- My style -->
+    <link rel="stylesheet" href="css/register.css" />
+  </head>
+  <body>
+    <div class="header">
+      <img src="img/logo.png" alt="" />
+    </div>
+    <div class="container">
+      <h1>Pendaftaran Akun</h2>
+      <p class="p1">Yuk,daftarkan akunmu sekarang juga!</p>
+
+      <form action="">
+        <label for="text">Nama Lengkap</label>
+        <input type="text" name="nama" id="nama" />
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" />
+        <label for="text" id="no-hp">No.Hp</label>
+        <div class="phone-input">
+       <div class="phone-code">
+          <img src="img/idn-logo.jpg" alt="" />
+          <select name="" id="slt">
+            <option value="">+62</option>
+          </select>
+        </div>
+        
+        <input type="telepone" name="telepone" id="telepone" />
+        </div>
+        <div class="sandi">
+          <label for="password">Kata Sandi</label>
+          <img src="img/eye.png" alt="" class="eye-1">
+          <input type="password" name="password" id="kata-sandi" />
+          <label for="password">Konfirmasi Kata Sandi</label>
+          <img src="img/eye.png" alt="" class="eye-2">
+          <input type="password" name="password" id="kfn-sandi" />
+        </div>
+        <a href="#">Lupa password?</a>
+        <button type="submit" class="btn-daftar">Daftar</button>
+        <button type="submit" class="btn-masuk">Masuk</button>
+        <hr class="hr1">
+        <p class="p2">atau</p>
+        <hr class="hr2">
+        <button class="btn-google">
+          <img src="img/logo_google_g_icon.png" alt="" />Masuk dengan akun
+          Google
+        </button>
+      </form>
+    </div>
+    
+  </body>
+</html>
